@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { User } from '../lib/types';
-import { backend } from '../lib/backend';
+import { backend } from '../lib/supabaseBackend';
 
 interface AuthContextType {
   user: User | null;

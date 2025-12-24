@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { backend } from '../lib/backend';
+import { backend } from '../lib/supabaseBackend';
 import { Category, Device, GlobalSettings, InquiryLog, User, ProjectSummaryDTO, PriceBreakdown } from '../lib/types';
 import { useAuth } from '../context/AuthContext';
 import { Button } from '../components/ui/Button';
